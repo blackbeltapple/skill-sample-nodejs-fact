@@ -8,7 +8,22 @@
           "apis": {
             "custom": {
               "endpoint": {
-                "uri": "what_name_you_want_to_name_the_lambda"
+                "uri": "ask-custom-fact-default"
+              }
+            }
+          }
+        }
+      }
+    },
+    "akm_personal": {
+      "skill_id": "amzn1.ask.skill.822a755b-32c1-4624-b2e1-c44fc3f82b8b",
+      "was_cloned": false,
+      "merge": {
+        "manifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "ask-custom-fact-akm_personal"
               }
             }
           }
